@@ -1,4 +1,4 @@
-# Laboratorio 3-2-2: Condicionales beca y gasolina
+# Laboratorio 3-3-2: Condicionales beca y gasolina
 
 ## Instructions
 
