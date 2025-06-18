@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Beca Estudiante & Coche No Arranca</title>
+</head>
+
+<body>
+  <h2>Beca Estudiante</h2>
+  <form id="scholarshipForm">
+    <label>Edad: <input type="number" id="age" required></label><br>
+    <label>Ciudad de residencia: <input type="text" id="city" required></label><br>
+    <label>¿Familia numerosa? <input type="checkbox" id="largeFamily"></label><br>
+    <label>¿Genio/a de la programación? <input type="checkbox" id="genius"></label><br>
+    <button type="submit">Comprobar</button>
+  </form>
+  <div id="scholarshipResult"></div>
+
+  <hr>
+
+  <h2>Coche No Arranca</h2>
+  <form id="carForm">
+    <label>¿Vives cerca? <input type="checkbox" id="liveNear"></label><br>
+    <label>¿Tienes ganas de caminar? <input type="checkbox" id="wantToWalk"></label><br>
+    <label>¿Tiene gasolina? <input type="checkbox" id="hasGasoline"></label><br>
+    <label>¿Tienes dinero? <input type="checkbox" id="hasMoney"></label><br>
+    <label>¿Tiene batería? <input type="checkbox" id="hasBattery"></label><br>
+    <button type="submit">Solucionar</button>
+  </form>
+  <div id="carResult"></div>
+  <script src="/src/script.js"></script>
+</body>
+
+</html>
